@@ -48,9 +48,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <Sidebar  items={carBrand} />
-        <MainContent items={cars} />
+        <Header className="header" />
+        <div>
+          <Sidebar  items={carBrand} />
+          <MainContent items={cars} />
+        </div>
         <Footer />
       </div>
     );

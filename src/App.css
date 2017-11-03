@@ -1,0 +1,46 @@
+.header-background{
+  background-color: grey;
+}
+
+.header-menu{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.navig{
+  color: red;
+  font-size: 20px;
+  width: 100%;
+}
+
+.navig ul li:hover{
+  background-color: rgb(40,30,30);
+}
+
+.navig ul li{
+  display: inline-block;
+  padding: 20px;
+}
+
+.navig ul{
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.navig a{
+  float: right;
+  color: red;
+  padding: 20px;
+}
+
+.navig a:hover{
+  background-color: rgb(40,30,30);
+}
+.clearfix{
+  content: "";
+  display: table;
+  clear: both
+}
