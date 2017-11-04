@@ -5,22 +5,23 @@ import './App.css';
 class Sidebar extends Component {
   render() {
     return (
-      <form>
+      <form className='search-form'>
+          <b>Brand</b>
           {this.props.items.map((item, index) =>
-            <label key={index}>
+            <label className='brand-check' key={index}>
               <input key={index} type='checkbox'/>
               {item}
             </label>	
           )}
-          <b>Select Price</b>
+          <b>Select Price:</b>
           <input type='text' placeholer='min'/>
           to
           <input type='text' placeholer='max'/>
-          <b>Engine capacity</b>
+          <b>Engine capacity:</b>
           <input type='text' placeholer='min'/>
           to
           <input type='text' placeholer='max'/>
-          <b>Transmission</b>
+          <b>Transmission:</b>
           <label>
           	<input type='radio' name='transmission' value='1'/>
           	Manual

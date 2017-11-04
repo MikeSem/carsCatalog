@@ -5,10 +5,10 @@ import './App.css';
 class MainContent extends Component {
   render() {
     return (
-      <div>
+      <div className='main-content'>
         {this.props.items.map((item, index) =>
-            <div key={index}>
-              <img src={item.photo} width='200px'/>
+            <div key={index} className='car-block'>
+              <img src={item.photo} width='300px'/>
               <p>
             	{item.brand} {item.model}<br />
             	Price: {item.price}$<br />
@@ -18,7 +18,7 @@ class MainContent extends Component {
               </p>
             </div>	
           )}
-        <button type="button">Load more</button>
+        <button className='more-btn' type="button">Load more</button>
       </div>
     );
   }

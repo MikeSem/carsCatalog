@@ -48,8 +48,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header className="header" />
-        <div>
+        <Header />
+        <div className='clearfix container'>
           <Sidebar  items={carBrand} />
           <MainContent items={cars} />
         </div>

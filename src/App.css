@@ -2,13 +2,15 @@
   background-color: grey;
 }
 
-.header-menu{
+.container{
   width: 1000px;
   margin: 0 auto;
   padding: 0;
 }
 
+.header-photo{
 
+}
 .navig{
   color: red;
   font-size: 20px;
@@ -43,4 +45,91 @@
   content: "";
   display: table;
   clear: both
+}
+
+.search-form{
+  width: 280px;
+  float: left;
+  border: 3px solid white;
+  box-shadow: 0 20px 20px rgba(0,0,0,0.75);
+  font-size: 30px;
+  padding: 10px;
+}
+
+.main-content{
+  width: 680px;
+  float: right;
+  text-align: center;
+}
+
+.car-block{
+  display: inline-block;
+  margin: 15px;
+  border-radius: 10px;
+  border: 3px solid grey;
+}
+
+.more-btn{
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+.footer-background{
+  margin-top: 20px;
+  background-color: grey;
+}
+
+.location{
+  float: left;
+  font-size: 20px;
+  color: red;
+  width: 200px;
+  margin-right: 150px;
+}
+
+.social-networks{
+  float: left;
+  font-size: 20px;
+  width: 200px;
+  color: red;
+}
+
+.social-networks a {
+  margin-right: 20px;
+}
+
+.developer{
+  float: right;
+  font-size: 20px;
+  width: 200px;
+  color: red;
+}
+
+.social-networks p{
+  margin-bottom: 0;
+}
+
+
+.developer p{
+  margin-bottom: 0;
+}
+
+a {
+  color: red;
+}
+
+.brand-check{
+  display: block;
+}
+
+
+form input[type="text"]{
+  width: 100px;
+  font-size: 30px;
+  border: 2px solid green;
+}
+
+form b{
+  display: block;
+  margin-bottom: 10px;
 }
